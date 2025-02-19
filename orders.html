@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helldivers II Command Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .neon-text {
+            text-shadow: 0 0 5px #0080FF, 0 0 10px #0080FF, 0 0 15px #0080FF;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans pt-16"> 
+    <nav class="fixed top-0 w-full bg-black bg-opacity-80 p-4 flex justify-center space-x-6 z-10">
+        <a href="home.html" class="text-white hover:text-yellow-400 transition duration-300">Home</a>
+        <a href="orders.html" class="text-white hover:text-yellow-400 transition duration-300">Upcoming Major Orders</a>
+        <a href="planets.html" class="text-white hover:text-yellow-400 transition duration-300">Best Planets</a>
+        <a href="warbonds.html" class="text-white hover:text-yellow-400 transition duration-300">New Warbonds</a>
+        <a href="images.html" class="text-white hover:text-yellow-400 transition duration-300">Image Gallery</a>
+    </nav>
+    
+    <section class="relative h-64 bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('OrdersImage2.jpg');">
+        <h2 class="text-6xl font-bold neon-text">Current Major Orders</h2>
+    </section>
+	
+	    <div class="container max-w-4xl mx-auto p-6 text-center">
+        <h2 class="text-2xl font-bold mt-6 neon-text">Current Major Orders</h2>
+        <table class="table-auto w-full mt-4 text-gray-300">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2">Order Task</th>
+                    <th class="px-4 py-2">Description</th>
+                    <th class="px-4 py-2">Completion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border px-4 py-2">Liberate Fori Prime</td>
+                    <td class="border px-4 py-2">Liberate Fori Prime from enemy control.</td>
+                    <td class="border px-4 py-2">0.0% completed</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Collect Common Samples</td>
+                    <td class="border px-4 py-2">Successfully extract with 100,000,000 Common Samples on Fori Prime.</td>
+                    <td class="border px-4 py-2">34,616,832 / 100,000,000 (34.6% completed)</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">Kill Terminoids</td>
+                    <td class="border px-4 py-2">Kill 1,000,000,000 Terminoids on Fori Prime.</td>
+                    <td class="border px-4 py-2">849,579,862 / 1,000,000,000 (85.0% completed)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="mt-4">Major Order ends in: 4D 16H</p>
+        <p class="mt-4">Reward: Warbond Medal (Quantity: 55)</p>
+    </div>
+    
+    <div class="container max-w-4xl mx-auto p-6 text-center">
+        <h2 class="text-3xl mt-6 neon-text">Last Weeks Galatic War Recap</h2>
+        <p align="center"><iframe class="mt-4" width="560" height="315" src="https://www.youtube.com/embed/EtrXEM1JvpQ?si=pIe7LRWfc0b3lZF7" frameborder="0" allowfullscreen></iframe></p>
+    </div>
+    
+    <div class="flex justify-center mt-6">
+        <a href="https://store.steampowered.com/app/553850/HELLDIVERS_2/" target="_blank">
+            <button class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-bold transition transform hover:scale-110 hover:bg-yellow-500">
+                DEPLOY NOW
+            </button>
+        </a>
+    </div>
+</body>
+</html>

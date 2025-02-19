@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helldivers II Command Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .neon-text {
+            text-shadow: 0 0 5px #0080FF, 0 0 10px #0080FF, 0 0 15px #0080FF;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans pt-16"> 
+    <nav class="fixed top-0 w-full bg-black bg-opacity-80 p-4 flex justify-center space-x-6 z-10">
+        <a href="home.html" class="text-white hover:text-yellow-400 transition duration-300">Home</a>
+        <a href="orders.html" class="text-white hover:text-yellow-400 transition duration-300">Upcoming Major Orders</a>
+        <a href="planets.html" class="text-white hover:text-yellow-400 transition duration-300">Best Planets</a>
+        <a href="warbonds.html" class="text-white hover:text-yellow-400 transition duration-300">New Warbonds</a>
+        <a href="images.html" class="text-white hover:text-yellow-400 transition duration-300">Image Gallery</a>
+    </nav>
+    <section class="relative h-64 bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('planets1.jpg');">
+        <h2 class="text-6xl font-bold neon-text">Best Planets</h2>
+    </section>
+    <div class="container max-w-4xl mx-auto p-6 text-center">
+        
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white rounded-lg shadow-lg">
+                    <img src="creek.jpg" alt="Mavleon Creek" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-2">Mavleon Creek</h3>
+                        <p class="text-gray-600 text-sm">A lush jungle planet with dense fog and heavy clouds, making visibility a challenge.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white rounded-lg shadow-lg">
+                    <img src="erata.jpg" alt="Erata Prime" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-2">Erata Prime</h3>
+                        <p class="text-gray-600 text-sm">A desert planet prone to unpredictable and dangerous sand twisters.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white rounded-lg shadow-lg">
+                    <img src="cyber.jpg" alt="Cyberstan" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-2">Cyberstan</h3>
+                        <p class="text-gray-600 text-sm">An ice world, former home of the Cyborgs during the first galactic war.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white rounded-lg shadow-lg">
+                    <img src="wells.jpg" alt="Veren Wells" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-2">Veren Wells</h3>
+                        <p class="text-gray-600 text-sm">An arid, rocky planet with frequent earthquakes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white rounded-lg shadow-lg">
+                    <img src="super.jpg" alt="Super Earth" class="w-full h-64 object-cover object-center">
+                    <div class="p-6">
+                        <h3 class="text-3xl font-bold text-gray-800 mb-2">Super Earth</h3>
+                        <p class="text-gray-600 text-sm">The central hub of the Helldivers, home to the command center.</p>
+					
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	    <div class="flex justify-center mt-6">
+        <a href="https://store.steampowered.com/app/553850/HELLDIVERS_2/" target="_blank">
+            <button class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-bold transition transform hover:scale-110 hover:bg-yellow-500">
+                DEPLOY NOW
+            </button>
+        </a>
+    </div>
+</body>
+</html>
